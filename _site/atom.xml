@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>E-commerce-withe-label</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2021-10-28T00:05:56+02:00</updated>
+ <id>http://localhost:4000</id>
+ <author>
+   <name>E-commerce-white-label</name>
+   <email>your-email@email.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Welcome!</title>
+   <link href="http://localhost:4000/welcome/"/>
+   <updated>2021-01-01T01:00:00+01:00</updated>
+   <id>http://localhost:4000/hello-world</id>
+   <content type="html">&lt;p&gt;OK! I just setup blog page for this project. 
+In next article you will find the general concept of this solution.&lt;/p&gt;
+
+&lt;p&gt;Peace!&lt;/p&gt;
+
+&lt;hr /&gt;
+</content>
+ </entry>
+ 
+
+</feed>

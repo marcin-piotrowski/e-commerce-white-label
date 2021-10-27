@@ -1,0 +1,39 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "E-commerce-withe-label",
+    "home_page_url": "http://localhost:4000/",
+    "feed_url": "http://localhost:4000/feed.json",
+    "description": "E-commerce-white-label, highly customisable framework for e-commerce businesses",
+    "icon": "http://localhost:4000/assets/images/apple-touch-icon.png",
+    "favicon": "http://localhost:4000/assets/images/favicon.png",
+    "expired": false,
+    
+    "author":  {
+        "name": "E-commerce-white-label",
+        "url": null,
+        "avatar": null
+    },
+    
+"items": [
+    
+        {
+            "id": "http://localhost:4000/welcome/",
+            "title": "Welcome!",
+            "summary": null,
+            "content_text": "OK! I just setup blog page for this project. In next article you will find the general concept of this solution.Peace!",
+            "content_html": "<p>OK! I just setup blog page for this project. In next article you will find the general concept of this solution.</p><p>Peace!</p><hr />",
+            "url": "http://localhost:4000/welcome/",
+            
+            
+            
+            "tags": ["home","welcome"],
+            
+            "date_published": "2021-01-01T01:00:00+01:00",
+            "date_modified": "2021-01-01T01:00:00+01:00",
+            
+                "author": "Marcin Piotrowksi"
+            
+        }
+    
+    ]
+}
