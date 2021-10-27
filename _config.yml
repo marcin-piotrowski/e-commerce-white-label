@@ -1,5 +1,5 @@
 # Site settings
-host: "https://github.com/marcin-piotrowski/e-commerce-white-label"
+host: "https://marcin-piotrowski.github.io/e-commerce-white-label/"
 site: E-commerce-withe-label
 title: E-commerce-withe-label
 keywords: e-commerce, withe-label
@@ -16,7 +16,7 @@ author:
 
 
 # URL settings
-url: "https://github.com/marcin-piotrowski/e-commerce-white-label" 
+url: "https://marcin-piotrowski.github.io/e-commerce-white-label/" 
 baseurl: "" 
 permalink: pretty
 
