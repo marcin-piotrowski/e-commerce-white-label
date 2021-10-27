@@ -17,7 +17,7 @@ author:
 
 # URL settings
 url: "https://github.com/marcin-piotrowski/e-commerce-white-label" 
-baseurl: "https://github.com/marcin-piotrowski/e-commerce-white-label" 
+baseurl: "" 
 permalink: pretty
 
 markdown: kramdown
