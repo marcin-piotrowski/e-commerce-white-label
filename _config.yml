@@ -1,0 +1,77 @@
+# Site settings
+site: E-commerce-withe-label
+title: E-commerce-withe-label
+keywords: e-commerce, withe-label
+description: >-
+  E-commerce-white-label, highly customisable framework for e-commerce businesses
+lang: en-US
+timezone:  Europe/Warsaw
+repo: https://github.com/marcin-piotrowski/e-commerce-white-label
+
+# Author settings
+author:
+  name: E-commerce-white-label
+  bio: Highly customisable framework for e-commerce businesses
+  picture: assets/images/logo.png 
+  github: onepase # github username
+  linkedin: hakantorun # linkedin username
+  email: your-email@email.com # email adress
+
+
+# URL settings
+url: "http://127.0.0.1:4000" # Domain Name of host. [username].github.io for github pages
+baseurl: "" # sub folder for jekyll site. only if jekyll site not in root of host. leave blank if not wishd. always add / in front.
+permalink: pretty
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+
+exclude:
+  - .jekyll-cache
+  - .obsidian
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  - CONTRIBUTING.md
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-relative-links
+paginate: 20
+paginate_path: "/page/:num"
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /:slug
+  
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+relative_links:
+  enabled:     true
+  collections: false
