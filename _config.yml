@@ -1,4 +1,5 @@
 # Site settings
+host: "https://github.com/marcin-piotrowski/e-commerce-white-label"
 site: E-commerce-withe-label
 title: E-commerce-withe-label
 keywords: e-commerce, withe-label
@@ -11,16 +12,12 @@ repo: https://github.com/marcin-piotrowski/e-commerce-white-label
 # Author settings
 author:
   name: E-commerce-white-label
-  bio: Highly customisable framework for e-commerce businesses
-  picture: assets/images/logo.png 
-  github: onepase # github username
-  linkedin: hakantorun # linkedin username
-  email: your-email@email.com # email adress
+  bio: Highly customisable framework for e-commerce businessess
 
 
 # URL settings
-url: "https://github.com/marcin-piotrowski/e-commerce-white-label" # Domain Name of host. [username].github.io for github pages
-baseurl: "" # sub folder for jekyll site. only if jekyll site not in root of host. leave blank if not wishd. always add / in front.
+url: "https://github.com/marcin-piotrowski/e-commerce-white-label" 
+baseurl: "https://github.com/marcin-piotrowski/e-commerce-white-label" 
 permalink: pretty
 
 markdown: kramdown
