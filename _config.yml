@@ -1,5 +1,5 @@
 # Site settings
-host: "https://marcin-piotrowski.github.io/e-commerce-white-label/"
+host: https://marcin-piotrowski.github.io/e-commerce-white-label/
 site: E-commerce-withe-label
 title: E-commerce-withe-label
 keywords: e-commerce, withe-label
@@ -7,7 +7,7 @@ description: >-
   E-commerce-white-label, highly customisable framework for e-commerce businesses
 lang: en-US
 timezone:  Europe/Warsaw
-repo: https://github.com/marcin-piotrowski/e-commerce-white-label
+repo: https://marcin-piotrowski.github.io/e-commerce-white-label/
 
 # Author settings
 author:
